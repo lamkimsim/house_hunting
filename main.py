@@ -6,10 +6,8 @@ import undetected_chromedriver as uc  # Link: https://github.com/ultrafunkamster
 
 from datetime import datetime
 from tqdm import tqdm
-from webdriver_manager.chrome import ChromeDriverManager
-from sys import platform
 from datetime import datetime
-from email.message import EmailMessage
+from twocaptcha import TwoCaptcha
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
